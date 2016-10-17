@@ -7,13 +7,18 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
+
 h1 {
   color: #fff;
   margin: 0;
-  font-family: "Bevan", sans-serif;
+  font-family: "Bevan", serif;
   text-align: center;
   display: block;
-  background-color: #79756f;
 }
 
 title {
@@ -29,7 +34,6 @@ ul {
   list-style-type: none;
   color: #fff;
   text-align: center;
-  background-color: #79756f;
   margin: 0;
   padding: 0.6em;
 }
@@ -37,17 +41,18 @@ ul {
 li {
   display: inline-block;
 }
+
 a {
-display: inline-block;
-background-color: #713837;
-color: white;
-padding: .6em;
-border-radius: .3em;
-text-align: center;
-font-family: arial;
-padding: 0.5em 0.75em;
-margin-bottom: 0.3em;
-text-decoration: none;
+  display: inline-block;
+  background-color: #713837;
+  color: white;
+  padding: .6em;
+  border-radius: .3em;
+  text-align: center;
+  font-family: arial;
+  padding: 0.5em 0.75em;
+  margin-bottom: 0.3em;
+  text-decoration: none;
 }
 
 .nav a:hover {
